@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piquant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="intro">
+        <img class="bg" src="./assets/img/home-1-slide-background-100x50.jpg" alt="">
+        <header>
+
+            <div class="social">
+                <a href="#" style="text-decoration: none; color: white;">Follow Us</a>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x"></i>
+
+                <span style="margin-left: 500px;">Reservations: +1-444-123-459</span>
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>Book Now</span>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <div class="menu" id="menu">
+                    <span class="close-btn text-warning" onclick="toggleMenu()">&times;</span>
+                    <ul>
+                        <img width="100px" src="assets\img\logo-light.png" alt="">
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">Original Home</a></li>
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">Meet The Chefs</a></li>
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">About Us</a></li>
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">Our Services</a></li>
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">Shop</a></li>
+                        <li><i class="fa-solid fa-caret-right"></i><a href="#">Landing</a></li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore.</p>
+
+                    <div class="follow-us">
+                        <h6>FOLLOW US</h6>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x"></i>
+                    </div>
+
+                </div>
+
+
+
+                <script src="./assets/script/sidebar.js"></script>
+            </div>
+
+        </header>
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img width="100px" src="./assets/img/logo-light.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+
+                            <a class="nav-link " href="#">Home</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reservations</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li><i class="fa-solid fa-star"></i>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Elements</a>
+                            <ul class="submenu">
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Original</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Health Food</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Bar & Cafe</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Restaurant</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">BBQ Home</a></li>
+                                <li><i class="fa-solid fa-caret-right"></i><a href="#">Fullscreen</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </form>
+                    <span style="color: rgb(255, 255, 255);">Cart</span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="item-count"><span>0</span></div>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <div class="slider">
+            <div class="slides">
+                <div style="visibility: initial;" class="slide" order="1">
+                    <img class="slide-pic" src="./assets/img/home-1-slide-1-graphic-2.png" alt="Slide 1">
+                    <img class="slide-icon" src="./assets/img/home-1-slide-1-graphic-1.png" alt="" srcset="">
+                    <h3>KNOW YOUR FOOD</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident, distinctio vitae qui,
+                        nobis natus quo reprehenderit in corporis ipsum ipsa earum asperiores.
+                    </p>
+                    <div class="purchase-btn">PURCHASE</div>
+                </div>
+
+                <div style="visibility: hidden;" class="slide" order="2">
+                    <img class="slide-pic" style="width:100%; height: 100%;"
+                        src="./assets/img/home-1-slide-1-graphic-8.png" alt="Slide 2">
+                    <img class="slide-icon" src="./assets/img/home-1-slide-1-graphic-9.png" alt="" srcset="">
+                    <h3>PIQUANT GREEN</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident, distinctio vitae qui,
+                        nobis natus quo reprehenderit in corporis ipsum ipsa earum asperiores.
+                    </p>
+                    <div class="purchase-btn">PURCHASE</div>
+                </div>
+
+
+                <div style="visibility: hidden;" class="slide" order="3">
+
+                    <img class="slide-pic" style="width:600px !important; height: 100%; margin-left: 200px !important;"
+                        src="./assets/img/hepsi_3.png" alt="Slide 2">
+
+
+
+                    <img style="width: 112px !important; height: 124px!important;" class="slide-icon"
+                        src="./assets/img/home-1-slide-1-graphic-10.png" alt="" srcset="">
+                    <h3>PIQUANT GREEN</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident, distinctio vitae qui,
+                        nobis natus quo reprehenderit in corporis ipsum ipsa earum asperiores.
+                    </p>
+                    <div class="purchase-btn">PURCHASE</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="buttons">
+            <button class="btn prev">&#10094;</button>
+            <button class="btn next">&#10095;</button>
+        </div>
+    </header>
+
+    <div class="foods">
+        <div class="food-container">
+            <div class="food-card">
+                <img src="./assets/img/home-1-image-1.jpeg" alt="">
+                <h4>Delicious Food</h4>
+                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam</span>
+            </div>
+            <div class="food-card">
+                <img src="./assets/img/home-1-image-2.jpeg" alt="">
+                <h4>For Every Taste</h4>
+                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam</span>
+            </div>
+            <div class="food-card">
+                <img src="./assets/img/home-1-image-3.jpeg" alt="">
+                <h4>The Real Burgers</h4>
+                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="art-gallery">
+        <div class="art-gallery-head">
+            <h3>Art Gallery</h3>
+            <ul>
+                <li><i class=" galery-li fa-solid fa-mug-hot"></i>Food & Drinks</li>
+                <li><i class="galery-li fa-solid fa-champagne-glasses"></i>Inetrior</li>
+                <li><i class="galery-li fa-solid fa-ice-cream"></i>Deserts</li>
+                <li><i class="galery-li fa-solid fa-file"></i>Recipes</li>
+            </ul>
+        </div>
+
+
+        <div class="art-gallery-imgs foodanddrinks">
+            <div class="art-gallery-imgs foodanddrinks">
+                <div class="galery-img">
+                    <img src="./assets/img/Carne-Asada-Tacos.jpeg" alt="Gallery Image">
+                    <div class="overlay">
+                        <p>Carne Asada Tacos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="art-gallery-imgs foodanddrinks">
+                <div class="galery-img">
+                    <img src="./assets/img/Mango-Chile-Chutney.jpeg" alt="Gallery Image">
+                    <div class="overlay">
+                        <p>Mango-Chile Chutney</p>
+                    </div>
+                </div>
+            </div>
+            <div class="art-gallery-imgs foodanddrinks">
+                <div class="galery-img">
+                    <img src="./assets/img/A-Treat-For-Your-Taste-Buds.jpeg" alt="Gallery Image">
+                    <div class="overlay">
+                        <p>A Treat For Your Taste Buds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="art-gallery-imgs foodanddrinks">
+                <div class="galery-img">
+                    <img src="./assets/img/Wasabi-Wednesday.jpeg" alt="Gallery Image">
+                    <div class="overlay">
+                        <p>Wasabi Wednesday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="art-gallery-imgs foodanddrinks">
+                <div class="galery-img">
+                    <img src="./assets/img/Amazing-Interior.jpeg" alt="Gallery Image">
+                    <div class="overlay">
+                        <p>Amazing Interior</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="welcome">
+            <h3><b>WELCOME TO PIQUANT</b></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.</p>
+            <div class="read-more"><span>READ MORE</span></div>
+            <img src="assets/img/home-1-image-4.jpeg" alt="" srcset="">
+        </div>
+
+        <div class="food-with-price-all">
+
+            <div class="food-with-price-all-heading">
+                <h2>Recommended by Our Chef</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip.</p>
+            </div>
+            <div class="food-with-price">
+
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-1a.jpeg" alt="" srcset="">
+                    <h3>Masala-Spiced Chickpeas</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur
+                        occaecat.</p>
+                    <div class="food-price">
+                        <span>$14</span>
+                    </div>
+                    <div class="food-new">NEW</div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-2a.jpeg" alt="" srcset="">
+                    <h3>Kung Pao Pastrami</h3>
+                    <p> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
+
+                    <div class="food-price">
+                        <span>$12</span>
+                    </div>
+                    <div class="food-new">NEW</div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-31.jpeg" alt="" srcset="">
+                    <h3>Jalapeno-Mango Salsa</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$41</span>
+                    </div>
+                </div>
+
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-4.jpeg" alt="" srcset="">
+                    <h3>Spicy Fried Rice & Bacon</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$45</span>
+                    </div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-5.jpeg" alt="" srcset="">
+                    <h3>Shrimp Curry</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$38</span>
+                    </div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-6.jpeg" alt="" srcset="">
+                    <h3>Chicken Doro Wat</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$55</span>
+                    </div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/single-food-7.jpeg" alt="" srcset="">
+                    <h3>Kung Pao Chicken</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$23</span>
+                    </div>
+                </div>
+                <div class="food-with-price-img">
+                    <img src="assets/img/home-1-image-2.jpeg" alt="" srcset="">
+                    <h3>Mango-Chile Chutney</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum.</p>
+                    <div class="food-price">
+                        <span>$46</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="simple-modification">
+                <h2>SIMPLE MODIFICATION</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</p>
+
+                <div class="simple-modification-container">
+                    <div class="simple-modification-card">
+                        <div class="simple-modification-overlay">
+                            <h2>Hot & Spicy</h2>
+                            <p>Vivamus sed fermentum tellus. Donec quis elit sapien. Aliquam commodo tortor nisi, nec
+                                varius mi finibus at. In nulla libero, dictum vel.</p>
+                            <div class="read-more"><span>READ MORE</span></div>
+                        </div>
+                        <div class="simple-modification-img">
+                            <img src="assets/img/banner-image-1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="simple-modification-card">
+                        <div class="simple-modification-overlay">
+                            <h2>Hot & Spicy</h2>
+                            <p>Vivamus sed fermentum tellus. Donec quis elit sapien. Aliquam commodo tortor nisi, nec
+                                varius mi finibus at. In nulla libero, dictum vel.</p>
+                            <div class="read-more"><span>READ MORE</span></div>
+                        </div>
+                        <div class="simple-modification-img">
+                            <img src="assets/img/banner-image-1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="simple-modification-card">
+                        <div class="simple-modification-overlay">
+                            <h2>Hot & Spicy</h2>
+                            <p>Vivamus sed fermentum tellus. Donec quis elit sapien. Aliquam commodo tortor nisi, nec
+                                varius mi finibus at. In nulla libero, dictum vel.</p>
+                            <div class="read-more"><span>READ MORE</span></div>
+                        </div>
+                        <div class="simple-modification-img">
+                            <img src="assets/img/banner-image-1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="happy-customers">
+
+            <div style="visibility: initial;" class="happy-customer" order="1">
+
+                <h3>HAPPY CUSTOMERS</h3>
+
+                <h4 class="mkdf-testimonial-title">Delicious Food</h4>
+                <span class="mkdf-testimonial-separator-before-line"></span>
+                <span class="mkdf-testimonial-separator-after-line"></span>
+
+                <p class="happy-custom-slider" order=1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+
+                    <br><br><br>
+
+                    Walter Soto
+                </p>
+
+                <p class="happy-custom-slider" order=2 style="visibility: hidden;">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Soluta, tempora! Officia pariatur reiciendis similique dignissimos
+                    repellendus, illo voluptate, error quo hic fugit dolor nemo, maiores animi. Eveniet similique cumque
+                    harum.
+                    Dolorem odio dignissimos aut repellendus atque ex consequatur rem ad odit tenetur libero esse
+                    facilis eum sapiente error, aspernatur eos architecto natus in asperiores! Vel esse tempore fuga
+                    repellendus quibusdam.
+                    <br><br><br>
+                    Donald Munoz
+                </p>
+
+                <p class="happy-custom-slider" order=3 style="visibility: hidden;">Cavid ipsum dolor sit amet
+                    consectetur adipisicing elit. Soluta, tempora! Officia pariatur reiciendis similique dignissimos
+                    repellendus, illo voluptate, error quo hic fugit dolor nemo, maiores animi. Eveniet similique cumque
+                    harum.
+                    Dolorem odio dignissimos aut repellendus atque tenetur libero esse facilis eum sapiente error,
+                    aspernatur eos architecto natus in asperiores! Vel esse tempore fuga repellendus quibusdam.
+                    <br><br><br>
+                    Emma Fernandez
+                </p>
+
+
+                <div class="buttons">
+                    <button class="btn prev prevP">&#10094;</button>
+                    <button class="btn next nextP">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="latest-news">
+            <h2>LATEST NEWS</h2>
+            <p class="latest-news-p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate. </p>
+            <div class="news-container">
+
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img src="assets/img/b-saffron-and-nougat-ice-cream.jpeg" alt="" srcset="">
+                    </div>
+                    <span>NOV 04,2025</span>
+                    <h3>NOUGAR ICE CREAM</h3>
+                    <p>Lorem ipsum dolor sit Voluptatum quae recusandae repellendus eaque ipsa magnam, natus assumenda
+                        rem. Labore mollitia et aliquam sequi repellendus.</p>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img src="assets/img/b-brazilian-burger-with-egg.jpeg" alt="" srcset="">
+                    </div>
+                    <span>NOV 04,2025</span>
+                    <h3>NOUGAR ICE CREAM</h3>
+                    <p>Lorem ipsum dolor sit Voluptatum quae recusandae repellendus eaque ipsa magnam, natus assumenda
+                        rem. Labore mollitia et aliquam sequi repellendus.</p>
+                </div>
+                <div class="news-card">
+                    <div class="news-card-img">
+                        <img src="assets/img/home-1-blog-31.jpeg" alt="" srcset="">
+                    </div>
+                    <span>NOV 04,2025</span>
+                    <h3>NOUGAR ICE CREAM</h3>
+                    <p>Lorem ipsum dolor sit Voluptatum quae recusandae repellendus eaque ipsa magnam, natus assumenda
+                        rem. Labore mollitia et aliquam sequi repellendus.</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <div class="food-drink">
+            <img src="./assets/img/home-1-logo-1.png" alt="">
+        </div>
+
+        <div class="awards-opening">
+
+            <div class="award-winning">
+                <h2>Award Winning Restaurant</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <img src="./assets/img/home-1-awards.jpg" alt="">
+                <div class="contact-info-award">
+                    <h4>CONTACT INFO</h4>
+                    <div class="mkdf-full-section-inner">
+                        <div class="vpb_column">
+                          <div class="mkdf-icon-list-item">
+                            <div class="mkdf-icon-list-icon-holder">
+                              <div class="mkdf-icon-list-icon-holder-inner clearfix">
+                                <span class="fa fa-map-marker-alt mkdf-icon-list-item-icon-elem"></span>
+                              </div>
+                            </div>
+                            <p>Raymond Boulevard 224, New York</p>
+                          </div>
+                          <div class="mkdf-icon-list-item">
+                            <div class="mkdf-icon-list-icon-holder">
+                              <div class="mkdf-icon-list-icon-holder-inner clearfix">
+                                <span class="fa fa-phone-alt mkdf-icon-list-item-icon-elem"></span>
+                              </div>
+                            </div>
+                            <p>1-444-123-4559</p>
+                          </div>
+                        </div>
+                        <div class="vpb_column">
+                          <div class="mkdf-icon-list-item">
+                            <div class="mkdf-icon-list-icon-holder">
+                              <div class="mkdf-icon-list-icon-holder-inner clearfix">
+                                <span class="fa fa-envelope mkdf-icon-list-item-icon-elem"></span>
+                              </div>
+                            </div>
+                            <p>piquant@qodeinteractive.com</p>
+                          </div>
+                          <div class="mkdf-icon-list-item">
+                            <div class="mkdf-icon-list-icon-holder">
+                              <div class="mkdf-icon-list-icon-holder-inner clearfix">
+                                <span class="fa fa-rss mkdf-icon-list-item-icon-elem"></span>
+                              </div>
+                            </div>
+                            <p>qodeinteractive.com</p>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+
+            <div class="opening-hours">
+                <div class="mkdf-working-hours-holder mkdf-wh-with-frame mkdf-wh-with-bg-image" style="background-image: url(https://piquant.qodeinteractive.com/wp-content/uploads/2015/11/home-1-opening-hours-background.jpg)">
+                  <div class="mkdf-wh-holder-inner">
+                    <div class="mkdf-wh-frame"></div>
+                    <div class="mkdf-wh-frame-2"></div>
+                    
+                    <div class="mkdf-wh-title-holder">
+                      <h2 class="mkdf-wh-title">OPENING <span class="mkdf-wh-title-accent-word">HOURS</span></h2>
+                    </div>
+              
+                    <div class="mkdf-wh-item clearfix">
+                      <span class="mkdf-wh-day">
+                        <span class="mkdf-wh-icon">
+                          <span class="icon_clock_alt"></span>
+                        </span>
+                        Monday
+                      </span>
+                      <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                      <span class="mkdf-wh-hours">
+                        <span class="mkdf-wh-from">9:00</span>
+              
+                      </span>
+                    </div>
+                    
+                   
+                    <div class="mkdf-wh-item clearfix">
+                      <span class="mkdf-wh-day">
+                        <span class="mkdf-wh-icon">
+                          <span class="icon_clock_alt"></span>
+                        </span>
+                        Tuesday
+                      </span>
+                      <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                      <span class="mkdf-wh-hours">
+                        <span class="mkdf-wh-from">9:30</span>
+                      </span>
+                    </div>
+              
+                    <div class="mkdf-wh-item clearfix">
+                        <span class="mkdf-wh-day">
+                          <span class="mkdf-wh-icon">
+                            <span class="icon_clock_alt"></span>
+                          </span>
+                          Wednesday
+                        </span>
+                        <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                        <span class="mkdf-wh-hours">
+                          <span class="mkdf-wh-from">9:40</span>
+                        </span>
+                      </div>
+                      <div class="mkdf-wh-item clearfix">
+                        <span class="mkdf-wh-day">
+                          <span class="mkdf-wh-icon">
+                            <span class="icon_clock_alt"></span>
+                          </span>
+                          Thursday
+                        </span>
+                        <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                        <span class="mkdf-wh-hours">
+                          <span class="mkdf-wh-from">CLOSED</span>
+                        </span>
+                      </div>
+                      <div class="mkdf-wh-item clearfix">
+                        <span class="mkdf-wh-day">
+                          <span class="mkdf-wh-icon">
+                            <span class="icon_clock_alt"></span>
+                          </span>
+                          Friday
+                        </span>
+                        <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                        <span class="mkdf-wh-hours">
+                          <span class="mkdf-wh-from">CLOSED</span>
+                        </span>
+                      </div>
+                      <div class="mkdf-wh-item clearfix">
+                        <span class="mkdf-wh-day">
+                          <span class="mkdf-wh-icon">
+                            <span class="icon_clock_alt"></span>
+                          </span>
+                          Saturday
+                        </span>
+                        <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                        <span class="mkdf-wh-hours">
+                          <span class="mkdf-wh-from">CLOSED</span>
+                        </span>
+                      </div>
+                      <div class="mkdf-wh-item clearfix">
+                        <span class="mkdf-wh-day">
+                          <span class="mkdf-wh-icon">
+                            <span class="icon_clock_alt"></span>
+                          </span>
+                          Sunday
+                        </span>
+                        <span class="mkdf-wh-dots"><span class="mkdf-wh-dots-inner"></span></span>
+                        <span class="mkdf-wh-hours">
+                          <span class="mkdf-wh-from">CLOSED</span>
+                        </span>
+                      </div>
+                        
+                    
+                  </div>
+                </div>
+              </div>
+              
+            
+        </div>
+        <div class="book-table">
+            <select name="partySize" class="mkdf-ot-people">
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6">6 People</option>
+                <option value="7">7 People</option>     
+                <option value="8">8 People</option>
+                <option value="9">9 People</option>
+                <option value="10">10 People</option>
+            </select>
+            <span class="input-separator">for</span>
+
+            <input type="date" class="mkdf-ot-date" />
+            <span class="input-separator">at</span>
+
+            <select name="ResTime" class="mkdf-ot-time">
+                <option value="5:30pm">6:30 am</option>
+                <option value="5:30pm">7:00 am</option>
+                <option value="5:30pm">7:30 am</option>
+                <option value="5:30pm">8:00 am</option>
+                <option value="5:30pm">8:30 am</option>
+                <option value="5:30pm">9:00 am</option>
+                <option value="5:30pm">9:30 am</option>
+                <option value="5:30pm">10:00 am</option>
+                <option value="5:30pm">10:30 am</option>
+                <option value="5:30pm">11:00 am</option>
+                <option value="5:30pm">11:30 am</option>
+                <option value="5:30pm">12:00 pm</option>
+                <option value="5:30pm">12:30 pm</option>
+                <option value="5:30pm">1:00 pm</option>
+                <option value="5:30pm">1:30 pm</option>
+                <option value="5:30pm">2:00 pm</option>
+                <option value="5:30pm">2:30 pm</option>
+                <option value="5:30pm">3:00 pm</option>
+                <option value="5:30pm">3:30 pm</option>
+                <option value="5:30pm">4:00 pm</option>
+                <option value="5:30pm">4:30 pm</option>
+                <option value="5:30pm">5:00 pm</option>
+                <option value="5:30pm">5:30 pm</option>
+                <option value="6:00pm">6:00 pm</option>
+                <option value="6:30pm">6:30 pm</option>
+                <option value="7:00pm" selected="selected">7:00 pm</option>
+                <option value="7:30pm">7:30 pm</option>
+                <option value="8:00pm">8:00 pm</option>
+                <option value="8:30pm">8:30 pm</option>
+                <option value="9:00pm">9:00 pm</option>
+                <option value="9:30pm">9:30 pm</option>
+                <option value="10:00pm">10:00 pm</option>
+                <option value="10:30pm">10:30 pm</option>
+                <option value="11:00pm">11:00 pm</option>
+                <option value="11:30pm">11:30 pm</option>
+            </select>
+
+            <button type="submit" class="mkdf-btn mkdf-btn-medium mkdf-btn-solid mkdf-btn-icon">
+                <span class="mkdf-btn-icon-holder">
+                    <i class="mkdf-icon-font-awesome fa fa-hand-o-right mkdf-btn-icon-elem"></i>
+                    <i class="mkdf-icon-font-awesome fa fa-hand-o-right mkdf-btn-icon-elem hover"></i>
+                </span>
+                <span class="mkdf-btn-text">BOOK A TABLE</span>
+            </button>
+          </div>
+
+
+          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/script/slider.js"></script>
+        <script src="assets/script/slider2.js"></script>
+        <script src="./assets/script/sidebar.js"></script>
+        <script src="/assets/script/script.js"></script>
+
+
+
+</body>
+
+</html>
